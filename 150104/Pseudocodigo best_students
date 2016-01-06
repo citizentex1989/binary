@@ -1,0 +1,18 @@
+Metodo best_students
+Entrada: Arreglo bidimensional students
+Salida: Arreglo best_students
+
+Inicio
+  Crear arreglo vacio best_students
+  Iniciar variables enteras x, y con valor de 0
+  Mientras y sea menor al largo del arreglo students
+    El valor del arreglo current_student será student[y][x]
+    Si la calificación de current_student es igual a 10
+      Agregar el nombre de current_student a best_students
+    Si x es igual a la longitud del arreglo students[y] menos 1
+      El valor de x es 0
+      Se incrementa y
+    Sino
+      Se incrementa x
+  Regresar el arreglo best_students
+Fin

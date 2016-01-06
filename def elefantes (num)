@@ -1,0 +1,5 @@
+def elefantes (num)
+  texto = " elefante se columpiaba sobre la tela de una araña, como veía que resistía fueron a llamar otro elefante"
+
+  for i in 1..num
+  
